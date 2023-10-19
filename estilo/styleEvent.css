@@ -1,0 +1,52 @@
+.navbar-purple {
+    background-color: rgb(73, 7, 73);
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+   
+  }
+
+  th, td {
+    border: 1px solid #46185a;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #46185a;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #d075ee;
+  }
+
+  tr:nth-child(odd) {
+    background-color:  #d075ee;
+  }
+  .bordetitle {
+    color: rgb(252, 111, 4);
+    font-size: 500%;
+    font-weight: bold;
+    font-family: 'Pistol Grip Pump'
+}
+.background-image {
+  background-image: url("C:/Users/Saenz/Documents/septimoSemestre/Dia de muertos/imagenes/marco.jpg");
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  background-attachment: fixed;
+  /* Opcional, fija la imagen de fondo */
+}
+.tarjeta {
+  background-color: rgb(51, 97, 39); /* Color de fondo que desees */
+  color: white; /* Color del texto (para que sea legible) */
+}
+@font-face {
+  font-family: 'Pistol Grip Pump';
+  src: url("c:/Users/Saenz/Downloads/pistol-grip-pump") format('woff2'); /* Asegúrate de proporcionar la ruta correcta */
+}

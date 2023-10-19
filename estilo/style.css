@@ -1,0 +1,43 @@
+.bordetitle {
+    color: rgb(240, 248, 241);
+    font-size: 500%;
+    font-weight: bold;
+    font-family: 'Pistol Grip Pump'
+   
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+    p{
+        color: rgb(243, 241, 243);
+        font-size: large;
+    /* Cambia el tamaño de la fuente */
+    font-weight: bold;
+    /* Cambia el grosor de la fuente a negrita */
+    text-align: center;
+    }
+    body {
+        background-image: url("C:/Users/Saenz/Documents/septimoSemestre/Dia de muertos/imagenes/fondo5.jpeg"); 
+        background-size: cover; /* Ajusta la imagen al tamaño del cuerpo de la página */
+        background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+        background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+    }
+    @font-face {
+        font-family: 'Pistol Grip Pump';
+        src: url("c:/Users/Saenz/Downloads/pistol-grip-pump") format('woff2'); 
+    }
